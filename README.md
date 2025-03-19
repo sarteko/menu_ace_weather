@@ -1,29 +1,29 @@
 # 🌦️ Weather & Time Management Script  
-**Credit:** ArTeK & Cruiser  
+**Credit:** **ArTeK** & **Cruiser**  
 
 ---
 
-## 🔍 Guide to Activating and Using the Weather and Time Script
+## 🔧 Guide to Activating and Using the Weather and Time Script
 
 ![withcell](https://github.com/user-attachments/assets/eb09d848-b06c-48ed-8a88-ad0a372ae609)
 
 ---
 
-### 1. Introduction to the System
+### 1. 📝 **Introduction to the System**
 
 - The **"time_sector"** variable is used to interact with an **ACE menu** that allows modifying the weather and time in the game.
 - Currently, the system is in an **immature version**, so some features may require further development.
 
 ---
 
-### 2. Function of the OBJ_weather_set.sqf File
+### 2. ⚙️ **Function of the OBJ_weather_set.sqf File**
 
 - The **OBJ_weather_set.sqf** file manages the **"time_sector"** variable and all settings related to weather and time.
 - This script allows users to dynamically modify atmospheric conditions during the mission via the **ACE menu**.
 
 ---
 
-### 3. How to Enable the Script in the Mission
+### 3. 🔑 **How to Enable the Script in the Mission**
 
 - To properly activate the script, add the following commands to the **init.sqf** file of the mission:
 
@@ -36,14 +36,14 @@
 
 ---
 
-### 4. Interacting with the Menu
+### 4. 🎮 **Interacting with the Menu**
 
 - Once the script is active, players can interact with the **ACE menu** to modify weather conditions during the mission.
 - Changes to the weather and time will occur in **real-time**, ensuring flexible and immediate control.
 
 ---
 
-### 5. Future Developments
+### 5. 🚀 **Future Developments**
 
 - The current version is still under development, and new features may be added to improve the weather and time management experience.
 
@@ -51,7 +51,7 @@
 
 ---
 
-## 📺 Visual Previews
+## 📺 **Visual Previews**
 
 ### Live Monitor
 ![monitor](https://github.com/user-attachments/assets/4037fb79-3d5d-4bd1-b86e-855fef5ea8c9)
