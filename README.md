@@ -27,7 +27,8 @@
 
 - To properly activate the script, add the following commands to the **init.sqf** file of the mission:
 
-[] execVM "weather\weather_set.sqf"; 
+[] execVM "weather\weather_set.sqf";
+
 [] execVM "weather\OBJ_weather_set.sqf";
 
 
