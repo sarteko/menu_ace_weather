@@ -47,7 +47,12 @@
 
 - The current version is still under development, and new features may be added to improve the weather and time management experience.
 
+---
+
 **Variable Name:** `time_sector`
+
+![setnamevarobjet](https://github.com/user-attachments/assets/60dd100f-5b4a-414d-9aed-3e96df03c6d9)
+
 
 ---
 
