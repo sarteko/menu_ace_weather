@@ -30,6 +30,7 @@ Nome Variabile: time_sector
 ![monitor](https://github.com/user-attachments/assets/4037fb79-3d5d-4bd1-b86e-855fef5ea8c9)
 
 Device
+
 ![device](https://github.com/user-attachments/assets/9ccbecc9-168f-4fe4-a4c0-59a137490c6d)
 
 without ACE_Callphone
