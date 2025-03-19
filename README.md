@@ -1,3 +1,4 @@
+#ARMA3
 # menu_ace_weather
 Guide to Activating and Using the Weather and Time Script
 Introduction to the System
