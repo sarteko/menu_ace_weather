@@ -11,7 +11,6 @@ o	Currently, the system is in an immature version, so some features may require 
 
 o	The OBJ_weather_set.sqf file manages the "time_sector" variable and all settings related to weather and time.
 o	This script allows users to dynamically modify atmospheric conditions during the mission via the ACE menu.
-o	Additionally, the menu can be activated through a specific device, namely the ACE_Callphone, available through the Arsenal.
 
 3.	How to Enable the Script in the Mission
 
