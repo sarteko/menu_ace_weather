@@ -1,5 +1,0 @@
-
-By setting the variable name "time_sector" to a game object, this will give the possibility to interact with an ACE menu that manages the Weather and Time.
-currently it is still an "unripe" version.
-To enable the script it must be inserted in the mission's init.sqf file
-[] execVM "weather\weather_set.sqf";
