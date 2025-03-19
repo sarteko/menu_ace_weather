@@ -11,7 +11,7 @@
 
 ### 1. 📝 **Introduction to the System**
 
-- The **"time_sector"** variable is used to interact with an **ACE menu** that allows modifying the weather and time in the game.
+- Activates ACE menu which allows you to change the weather and time in the game.
 - Currently, the system is in an **immature version**, so some features may require further development.
 
 ---
