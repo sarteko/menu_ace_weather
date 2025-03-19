@@ -1,3 +1,4 @@
+Credit: ArTeK & Cruiser
 Guide to Activating and Using the Weather and Time Script
 
 ![withcell](https://github.com/user-attachments/assets/eb09d848-b06c-48ed-8a88-ad0a372ae609)
