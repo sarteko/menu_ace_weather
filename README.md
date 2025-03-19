@@ -1,55 +1,51 @@
+🌦️ Weather & Time Management Script
 Credit: ArTeK & Cruiser
 
-Guide to Activating and Using the Weather and Time Script
+📌 Introduction
+The Weather & Time Management Script allows players to dynamically control in-game weather and time through the ACE menu.
 
-![withcell](https://github.com/user-attachments/assets/eb09d848-b06c-48ed-8a88-ad0a372ae609)
+⚙️ System Overview
+The "time_sector" variable is used to interact with the ACE menu, enabling weather and time adjustments.
+Currently, the system is in an early development stage, and some features may require further improvements.
+📂 Script Functionality
+🔹 Function of OBJ_weather_set.sqf
+The OBJ_weather_set.sqf file manages the "time_sector" variable and all related weather and time settings.
+The script allows real-time changes to atmospheric conditions via the ACE menu.
+Additionally, weather_set.sqf manages the activation of the ACE_Callphone, ensuring that only players with the device can access the weather control menu.
+🚀 How to Enable the Script
+To properly activate the script, add the following lines to your init.sqf file:
 
-1.	Introduction to the System
-
-o	The "time_sector" variable is used to interact with an ACE menu that allows modifying the weather and time in the game.
-
-o	Currently, the system is in an immature version, so some features may require further development.
-
-2.	Function of the OBJ_weather_set.sqf File
-
-o	The OBJ_weather_set.sqf file manages the "time_sector" variable and all settings related to weather and time.
-
-o	This script allows users to dynamically modify atmospheric conditions during the mission via the ACE menu.
-
-3.	How to Enable the Script in the Mission
-
-o	To properly activate the script, the following command must be added to the init.sqf file of the mission:
-
+sqf
+Copia
+Modifica
 [] execVM "weather\weather_set.sqf";
-
 [] execVM "weather\OBJ_weather_set.sqf";
+✅ This ensures that the script runs at mission startup, enabling dynamic weather and time control.
 
-o	This command ensures that the script is executed at mission startup, enabling dynamic weather and time management.
+🖥️ Interacting with the ACE Menu
+Once the script is active, players can modify weather conditions directly from the ACE menu.
+The ACE_Callphone is required to access the menu.
+All changes take effect in real-time, offering flexible and immediate control over the game environment.
+📷 With ACE_Callphone:
 
-4.	Interacting with the Menu
 
-o	Once the script is active, players can interact with the ACE menu to modify weather conditions during the mission.
+📷 Without ACE_Callphone:
 
-o	Changes to the weather and time will occur in real-time, ensuring flexible and immediate control.
 
-5.	Future Developments
+📱 Device for Activation
+The ACE_Callphone is required to activate the ACE menu for weather control.
+You can find this device in the Arsenal.
 
-o	The current version is still under development, and new features may be added to improve the weather and time management experience.
-Nome Variabile: time_sector
- 
-![monitor](https://github.com/user-attachments/assets/4037fb79-3d5d-4bd1-b86e-855fef5ea8c9)
+📷 Device Preview:
 
-Device
 
-![device](https://github.com/user-attachments/assets/9ccbecc9-168f-4fe4-a4c0-59a137490c6d)
+🔮 Future Developments
+🔧 The script is still in active development, and new features may be added to improve weather and time management further.
 
-without ACE_Callphone
+📷 Script in Action:
 
-![withoutcell](https://github.com/user-attachments/assets/ecc9f1d4-f546-4397-9cfe-31f3f6b6794b)
 
-with ACE_Callphoone
-
-![withcell](https://github.com/user-attachments/assets/af47a3bb-c0eb-4146-ab7d-dbc1fcfcc0fb)
-
+📌 Variable Name:
+time_sector
 
   
