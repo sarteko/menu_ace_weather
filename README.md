@@ -5,11 +5,13 @@ Guide to Activating and Using the Weather and Time Script
 1.	Introduction to the System
 
 o	The "time_sector" variable is used to interact with an ACE menu that allows modifying the weather and time in the game.
+
 o	Currently, the system is in an immature version, so some features may require further development.
 
 2.	Function of the OBJ_weather_set.sqf File
 
 o	The OBJ_weather_set.sqf file manages the "time_sector" variable and all settings related to weather and time.
+
 o	This script allows users to dynamically modify atmospheric conditions during the mission via the ACE menu.
 
 3.	How to Enable the Script in the Mission
@@ -25,6 +27,7 @@ o	This command ensures that the script is executed at mission startup, enabling 
 4.	Interacting with the Menu
 
 o	Once the script is active, players can interact with the ACE menu to modify weather conditions during the mission.
+
 o	Changes to the weather and time will occur in real-time, ensuring flexible and immediate control.
 
 5.	Future Developments
