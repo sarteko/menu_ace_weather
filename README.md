@@ -25,6 +25,7 @@
 
 ### 3. 🔑 **How to Enable the Script in the Mission**
 
+- The **"time_sector"** variable is used to interact with an **ACE menu** that allows modifying the weather and time in the game.
 - To properly activate the script, add the following commands to the **init.sqf** file of the mission:
 
 [] execVM "weather\weather_set.sqf";
