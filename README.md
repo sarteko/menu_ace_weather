@@ -17,11 +17,11 @@ How to Enable the Script in the Mission
 
 To properly activate the script, you need to insert two commands into the init.sqf file of the mission:
 
-sqf
-Copia
-Modifica
+
+
 [] execVM "weather\weather_set.sqf";
 [] execVM "weather\menu_ace_Wportable.sqf";
+
 These commands will execute the scripts at mission startup, enabling the weather and time management functionality.
 
 Interacting with the Menu
